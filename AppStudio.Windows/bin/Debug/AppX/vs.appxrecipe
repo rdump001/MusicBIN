@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RAHUL</Machine>
+    <WindowsUser>rahul</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3b61e712-d67b-4b80-8684-39f64d778b20</PackageIdentityName>
+    <IntermediateOutputPath>F:\music bin phone\AppStudio.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>83AE1A9DDCE7B73BB4E8687BFE337998F55EB531DFFFE14ED3AC7064C20FFBB6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3b61e712-d67b-4b80-8684-39f64d778b20_1.0.10.0_neutral__952nprnvtrww2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3b61e712-d67b-4b80-8684-39f64d778b20_952nprnvtrww2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3b61e712-d67b-4b80-8684-39f64d778b20</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=AppStudio</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.10.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\music bin phone\AppStudio.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T15:03:25.558</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\AppStudio.exe">
+      <PackagePath>AppStudio.exe</PackagePath>
+      <Modified>2014-10-13T15:03:14.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
+      <Modified>2013-09-13T06:12:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-09-13T06:12:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-04-29T08:53:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-04-29T08:53:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\Lib\AppStudio.Common.dll">
+      <PackagePath>AppStudio.Common.dll</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Data\bin\Debug\AppStudio.Data.dll">
+      <PackagePath>AppStudio.Data.dll</PackagePath>
+      <Modified>2014-10-13T14:57:17.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2014-10-13T14:57:15.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\packages\Newtonsoft.Json.6.0.5\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-10-13T14:57:15.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\packages\PCLStorage.0.9.6\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+      <Modified>2014-10-13T14:57:15.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\packages\PCLStorage.0.9.6\lib\portable-win8+wpa81\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+      <Modified>2014-10-13T14:57:15.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
+      <Modified>2013-09-13T06:12:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf</PackagePath>
+      <Modified>2013-09-13T06:12:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
+      <Modified>2013-09-13T06:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
+      <Modified>2013-09-13T06:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\AppBar\GoToSource.png">
+      <PackagePath>Assets\AppBar\GoToSource.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\AppBar\PinToStart.png">
+      <PackagePath>Assets\AppBar\PinToStart.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\AppBar\Refresh.png">
+      <PackagePath>Assets\AppBar\Refresh.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\AppBar\TextToSpeech.png">
+      <PackagePath>Assets\AppBar\TextToSpeech.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\ApplicationLogo.png">
+      <PackagePath>Assets\ApplicationLogo.png</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\NoImage.png">
+      <PackagePath>Assets\NoImage.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\VideoError.png">
+      <PackagePath>Assets\VideoError.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\mag-1295264913-1.png">
+      <PackagePath>Assets\DataImages\mag-1295264913-1.png</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\bto-photo-gallery-taylor-guitars.png">
+      <PackagePath>Assets\DataImages\bto-photo-gallery-taylor-guitars.png</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Stradivari-violin-008.png">
+      <PackagePath>Assets\DataImages\Stradivari-violin-008.png</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\index.png">
+      <PackagePath>Assets\DataImages\index.png</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\11954457081755467152TheresaKnott_Drum_Kit.svg.hi.png">
+      <PackagePath>Assets\DataImages\11954457081755467152TheresaKnott_Drum_Kit.svg.hi.png</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\YamaharecordingCustom.png">
+      <PackagePath>Assets\DataImages\YamaharecordingCustom.png</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\MuSiCViews.xaml">
+      <PackagePath>Views\DataTemplates\MuSiCViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\MUSICALINSTRUMENTSViews.xaml">
+      <PackagePath>Views\DataTemplates\MUSICALINSTRUMENTSViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\TYPESOFINSTRUMENTSViews.xaml">
+      <PackagePath>Views\DataTemplates\TYPESOFINSTRUMENTSViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\HOWTOPLAYViews.xaml">
+      <PackagePath>Views\DataTemplates\HOWTOPLAYViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\GUITARViews.xaml">
+      <PackagePath>Views\DataTemplates\GUITARViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\VIOLINViews.xaml">
+      <PackagePath>Views\DataTemplates\VIOLINViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\KEYBOARDViews.xaml">
+      <PackagePath>Views\DataTemplates\KEYBOARDViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\DRUMSViews.xaml">
+      <PackagePath>Views\DataTemplates\DRUMSViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\MUsIcNEWSViews.xaml">
+      <PackagePath>Views\DataTemplates\MUsIcNEWSViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Views\DataTemplates\ViSuAlSViews.xaml">
+      <PackagePath>Views\DataTemplates\ViSuAlSViews.xaml</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\Assets\ApplicationBackgroundImage.jpg">
+      <PackagePath>Assets\ApplicationBackgroundImage.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile1.jpg">
+      <PackagePath>Assets\DataImages\Tile1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile2.jpg">
+      <PackagePath>Assets\DataImages\Tile2.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile3.jpg">
+      <PackagePath>Assets\DataImages\Tile3.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile4.jpg">
+      <PackagePath>Assets\DataImages\Tile4.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile5.jpg">
+      <PackagePath>Assets\DataImages\Tile5.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile6.jpg">
+      <PackagePath>Assets\DataImages\Tile6.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile7.jpg">
+      <PackagePath>Assets\DataImages\Tile7.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Tile8.jpg">
+      <PackagePath>Assets\DataImages\Tile8.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\3d-musical-instruments-1280x800.jpg">
+      <PackagePath>Assets\DataImages\3d-musical-instruments-1280x800.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\image1.jpg">
+      <PackagePath>Assets\DataImages\image1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\woodwind-instruments-300x297-1.jpg">
+      <PackagePath>Assets\DataImages\woodwind-instruments-300x297-1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\brass-instruments-1.jpg">
+      <PackagePath>Assets\DataImages\brass-instruments-1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\stringed-instruments-flute-587-1.jpg">
+      <PackagePath>Assets\DataImages\stringed-instruments-flute-587-1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\parts_of_guitar.jpg">
+      <PackagePath>Assets\DataImages\parts_of_guitar.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\sittingposition.jpg">
+      <PackagePath>Assets\DataImages\sittingposition.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\how-to-tune-a-guitar.jpg">
+      <PackagePath>Assets\DataImages\how-to-tune-a-guitar.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\beginner-lessons-finger-thumb-positions-800X800.jpg">
+      <PackagePath>Assets\DataImages\beginner-lessons-finger-thumb-positions-800X800.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Gbarre1.jpg">
+      <PackagePath>Assets\DataImages\Gbarre1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\blackbarre.jpg">
+      <PackagePath>Assets\DataImages\blackbarre.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\e-barre-chord.jpg">
+      <PackagePath>Assets\DataImages\e-barre-chord.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\classical-guitar.jpg">
+      <PackagePath>Assets\DataImages\classical-guitar.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\04083-1.jpg">
+      <PackagePath>Assets\DataImages\04083-1.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\670px-Play-Acoustic-Guitar-Tab-Step-3.jpg">
+      <PackagePath>Assets\DataImages\670px-Play-Acoustic-Guitar-Tab-Step-3.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\images.jpg">
+      <PackagePath>Assets\DataImages\images.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\download.jpg">
+      <PackagePath>Assets\DataImages\download.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\bow.jpg">
+      <PackagePath>Assets\DataImages\bow.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\670px-Use-New-Rosin-on-a-New-Violin-Bow-Step-2.jpg">
+      <PackagePath>Assets\DataImages\670px-Use-New-Rosin-on-a-New-Violin-Bow-Step-2.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\670px-Tune-a-Violin-Step-10.jpg">
+      <PackagePath>Assets\DataImages\670px-Tune-a-Violin-Step-10.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\BowHold02.jpg">
+      <PackagePath>Assets\DataImages\BowHold02.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Violinist-002_large.jpg">
+      <PackagePath>Assets\DataImages\Violinist-002_large.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\6_violin-player-girl-13.jpg">
+      <PackagePath>Assets\DataImages\6_violin-player-girl-13.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\stock-footage-play-the-violin-movement-of-the-bow-on-the-strings-violin.jpg">
+      <PackagePath>Assets\DataImages\stock-footage-play-the-violin-movement-of-the-bow-on-the-strings-violin.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\strings.jpg">
+      <PackagePath>Assets\DataImages\strings.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\15418r2Nce819a12e2458523048b8c715c068797.jpg">
+      <PackagePath>Assets\DataImages\15418r2Nce819a12e2458523048b8c715c068797.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Violin-Scales.jpg">
+      <PackagePath>Assets\DataImages\Violin-Scales.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\boy_with_violin.jpg">
+      <PackagePath>Assets\DataImages\boy_with_violin.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\200802_104_span9.jpg">
+      <PackagePath>Assets\DataImages\200802_104_span9.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\xk2_keydtl.jpg">
+      <PackagePath>Assets\DataImages\xk2_keydtl.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\11_14_21---Grand-Piano-Keyboard_web.jpg">
+      <PackagePath>Assets\DataImages\11_14_21---Grand-Piano-Keyboard_web.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\629px-Play-the-Keyboard-Step-5-Version-2.jpg">
+      <PackagePath>Assets\DataImages\629px-Play-the-Keyboard-Step-5-Version-2.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\670px-Play-the-Keyboard-Step-6-Version-2.jpg">
+      <PackagePath>Assets\DataImages\670px-Play-the-Keyboard-Step-6-Version-2.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Piano-labeled-white-keys-only.jpg">
+      <PackagePath>Assets\DataImages\Piano-labeled-white-keys-only.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\how-to-play-piano-songs.jpg">
+      <PackagePath>Assets\DataImages\how-to-play-piano-songs.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Yamaha-E233-600x250.jpg">
+      <PackagePath>Assets\DataImages\Yamaha-E233-600x250.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\590Girl_Playing_the_Piano_in_Wheat_Field_3.jpg">
+      <PackagePath>Assets\DataImages\590Girl_Playing_the_Piano_in_Wheat_Field_3.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\092110-conga-opener.jpg">
+      <PackagePath>Assets\DataImages\092110-conga-opener.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\rock-band-game-drumsticks.jpg">
+      <PackagePath>Assets\DataImages\rock-band-game-drumsticks.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Standard-Male-Posture-Side-View.jpg">
+      <PackagePath>Assets\DataImages\Standard-Male-Posture-Side-View.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\download__1_.jpg">
+      <PackagePath>Assets\DataImages\download__1_.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\phat-foot-drums-harness.jpg">
+      <PackagePath>Assets\DataImages\phat-foot-drums-harness.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\how-to-read-drum-music-fills.WidePlayer.jpg">
+      <PackagePath>Assets\DataImages\how-to-read-drum-music-fills.WidePlayer.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\images__1_.jpg">
+      <PackagePath>Assets\DataImages\images__1_.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\Copy_of_drummer.jpg">
+      <PackagePath>Assets\DataImages\Copy_of_drummer.jpg</PackagePath>
+      <Modified>2014-10-13T09:18:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Shared\Assets\DataImages\percussion-1.gif">
+      <PackagePath>Assets\DataImages\percussion-1.gif</PackagePath>
+      <Modified>2014-10-13T09:18:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Controls\WebControl.xbf">
+      <PackagePath>Controls\WebControl.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Controls\YouTubeViewer.xbf">
+      <PackagePath>Controls\YouTubeViewer.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\AppFlyouts\AboutFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\AboutFlyout.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\AppFlyouts\PrivacyFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\PrivacyFlyout.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\ImageViewer.xbf">
+      <PackagePath>Views\ImageViewer.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\GUITARPage.xbf">
+      <PackagePath>Views\GUITARPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\VIOLINPage.xbf">
+      <PackagePath>Views\VIOLINPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\KEYBOARDPage.xbf">
+      <PackagePath>Views\KEYBOARDPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\DRUMSPage.xbf">
+      <PackagePath>Views\DRUMSPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\MUSICALINSTRUMENTSList.xbf">
+      <PackagePath>Views\MUSICALINSTRUMENTSList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\MUSICALINSTRUMENTSDetailPage.xbf">
+      <PackagePath>Views\MUSICALINSTRUMENTSDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\TYPESOFINSTRUMENTSList.xbf">
+      <PackagePath>Views\TYPESOFINSTRUMENTSList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\TYPESOFINSTRUMENTSDetailPage.xbf">
+      <PackagePath>Views\TYPESOFINSTRUMENTSDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\GUITARList.xbf">
+      <PackagePath>Views\GUITARList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\VIOLINList.xbf">
+      <PackagePath>Views\VIOLINList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\KEYBOARDList.xbf">
+      <PackagePath>Views\KEYBOARDList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\DRUMSList.xbf">
+      <PackagePath>Views\DRUMSList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\GUITARDetailPage.xbf">
+      <PackagePath>Views\GUITARDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\VIOLINDetailPage.xbf">
+      <PackagePath>Views\VIOLINDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\KEYBOARDDetailPage.xbf">
+      <PackagePath>Views\KEYBOARDDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\DRUMSDetailPage.xbf">
+      <PackagePath>Views\DRUMSDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\MUsIcNEWSList.xbf">
+      <PackagePath>Views\MUsIcNEWSList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\MUsIcNEWSDetailPage.xbf">
+      <PackagePath>Views\MUsIcNEWSDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\ViSuAlSList.xbf">
+      <PackagePath>Views\ViSuAlSList.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Views\ViSuAlSDetailPage.xbf">
+      <PackagePath>Views\ViSuAlSDetailPage.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Styles\ControlStyles.xbf">
+      <PackagePath>Styles\ControlStyles.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Styles\ButtonStyles.xbf">
+      <PackagePath>Styles\ButtonStyles.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\Styles\AppStyles.xbf">
+      <PackagePath>Styles\AppStyles.xbf</PackagePath>
+      <Modified>2014-10-13T15:03:13.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\AppStudio.xr.xml">
+      <PackagePath>AppStudio.xr.xml</PackagePath>
+      <Modified>2014-10-13T15:03:13.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\music bin phone\AppStudio.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-13T15:03:16.280</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

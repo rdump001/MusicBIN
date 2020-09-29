@@ -1,0 +1,2 @@
+F:\music bin phone\AppStudio.Data\AppStudio.Data.csproj;neutral
+F:\music bin phone\AppStudio.WindowsPhone\AppStudio.WindowsPhone.csproj;neutral

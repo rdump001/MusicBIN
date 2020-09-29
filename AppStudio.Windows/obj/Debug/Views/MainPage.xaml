@@ -1,0 +1,76 @@
+﻿<Page
+    x:Class="AppStudio.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ads="using:Microsoft.Advertising.WinRT.UI"
+    mc:Ignorable="d">
+ 
+  <Grid Background="{StaticResource AppBackground}">
+    <Grid.ChildrenTransitions>
+      <TransitionCollection>
+        <EntranceThemeTransition/>
+      </TransitionCollection>
+    </Grid.ChildrenTransitions>
+
+    <Hub x:ConnectionId='1' x:Name="Container"  DataContext="{Binding}" Header="{Binding NavigationHelper}" HeaderTemplate="{StaticResource PageHeader}"                                           Style="{StaticResource AppHubStyle}"                                                >
+      <HubSection x:Name="MuSiCSection" Header="MuSiC" DataContext="{Binding MainViewModel.MuSiCModel}" ContentTemplate="{StaticResource MuSiCList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Uid="AdvertisementSection" Header="Advertisement">
+        <DataTemplate>
+          <ads:AdControl ApplicationId="d25517cb-12d4-4699-8bdc-52040c712cab"
+            AdUnitId="10043030"
+            Height="600"
+            VerticalAlignment="Top"
+            Width="300"/>
+        </DataTemplate>
+      </HubSection>
+      <HubSection x:Name="MUSICALINSTRUMENTSSection" Header="MUSICAL INSTRUMENTS" DataContext="{Binding MainViewModel.MUSICALINSTRUMENTSModel}" ContentTemplate="{StaticResource MUSICALINSTRUMENTSList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="TYPESOFINSTRUMENTSSection" Header="TYPES OF INSTRUMENTS " DataContext="{Binding MainViewModel.TYPESOFINSTRUMENTSModel}" ContentTemplate="{StaticResource TYPESOFINSTRUMENTSList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="HOWTOPLAYSection" Header="HOW TO PLAY ......" DataContext="{Binding MainViewModel.HOWTOPLAYModel}" ContentTemplate="{StaticResource HOWTOPLAYList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="MUsIcNEWSSection" Header="mUsIc NEWS" DataContext="{Binding MainViewModel.MUsIcNEWSModel}" ContentTemplate="{StaticResource MUsIcNEWSList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="ViSuAlSSection" Header="ViSuAlS" DataContext="{Binding MainViewModel.ViSuAlSModel}" ContentTemplate="{StaticResource ViSuAlSList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+    </Hub>
+
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup>
+        <VisualState x:Name="SnappedView">
+          <Storyboard>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="MuSiCSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource MuSiCListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="MUSICALINSTRUMENTSSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource MUSICALINSTRUMENTSListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TYPESOFINSTRUMENTSSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource TYPESOFINSTRUMENTSListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="HOWTOPLAYSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource HOWTOPLAYListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="MUsIcNEWSSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource MUsIcNEWSListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ViSuAlSSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ViSuAlSListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+          </Storyboard>
+        </VisualState>
+        <VisualState x:Name="FullscreenView">
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+  </Grid>
+
+  <Page.BottomAppBar>
+    <CommandBar Background="{StaticResource AppBarBackground}">
+      <AppBarButton x:Uid="RefreshButton" DataContext="{Binding MainViewModel}" Command="{Binding RefreshCommand}">
+        <AppBarButton.Icon>
+          <BitmapIcon UriSource="ms-appx:///Assets/AppBar/Refresh.png"/>
+        </AppBarButton.Icon>
+      </AppBarButton>
+    </CommandBar>
+  </Page.BottomAppBar>
+</Page>
+

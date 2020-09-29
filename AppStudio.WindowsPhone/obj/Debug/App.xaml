@@ -1,0 +1,62 @@
+﻿<Application
+    x:Class="AppStudio.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:common="using:AppStudio.Common"
+    xmlns:localData="using:Shared"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:commands="using:AppStudio.Commands">
+
+  <!--Application Resources-->
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Styles/AppStyles.xaml"/>
+        <ResourceDictionary Source="Styles/ButtonStyles.xaml"/>
+        <ResourceDictionary Source="Styles/ControlStyles.xaml"/>
+        <!-- Application DataTemplate imports -->
+        <ResourceDictionary Source="Views/DataTemplates/MuSiCViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/MUSICALINSTRUMENTSViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/TYPESOFINSTRUMENTSViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/HOWTOPLAYViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/GUITARViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/VIOLINViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/KEYBOARDViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/DRUMSViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/MUsIcNEWSViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/ViSuAlSViews.xaml"/>
+      </ResourceDictionary.MergedDictionaries>
+
+      <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+          <x:String x:Key="ProgressBarIndeterminateForegroundThemeBrush">#FFE0E0E0</x:String>
+        </ResourceDictionary>
+      </ResourceDictionary.ThemeDictionaries>
+
+      <x:String x:Key="AppName">MuSiC BiN</x:String>
+      <x:String x:Key="AppTitle">MuSiC BiN</x:String>
+
+      <!-- Html2Xaml -->
+      <html2xaml:Properties x:Key="Properties"/>
+      
+      <!-- VariableSizedGrid -->
+      <controls:VariableSizedGrid x:Key="VariableSizedGrid"/>
+
+      <!-- ItemClickCommand -->
+      <commands:ItemClickCommand x:Key="ItemClickCommand" />
+      
+      <!-- Converters -->
+      <controls:TextPlainConverter x:Key="TextPlainConverter"/>
+      <controls:ThumbnailConverter x:Key="ThumbnailConverter"/>
+      <controls:VisibilityConverter x:Key="VisibilityConverter"/>
+      <controls:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+
+      <!-- Action Commands -->
+      <local:ActionCommands x:Key="ActionCommands"/>
+
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
+
